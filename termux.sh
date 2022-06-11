@@ -15,7 +15,7 @@ clear='\033[0m'
 #tar xvf file.tar.xz -C /data/data/com.termux/files/usr/share/figlet
 
 #Creating server
-#curl -L -o $HOME/Figlet-fonts-1000plus.tar.xz https://github.com/efxtv/figlet-fonts/blob/main/Figlet-fonts-1000plus.tar.xz?raw=true -s;sudo tar xvf Figlet-fonts-1000plus.tar.xz -C /data/data/com.termux/files/usr/share/figlet
+#curl -L -o $HOME/Figlet-fonts-1000plus.tar.xz https://github.com/efxtv/figlet-fonts/blob/main/Figlet-fonts-1000plus.tar.xz?raw=true -s; tar xvf Figlet-fonts-1000plus.tar.xz -C /data/data/com.termux/files/usr/share/figlet
  > /dev/null 2>&1
 #rm $HOME/Figlet-fonts-1000plus.tar.xz
 
@@ -46,7 +46,7 @@ sleep 3
 else
 echo -e "[${Green}✔${clear}] ${IYellow} Adding extra files... ${clear}"
 sleep 1
-curl -L -o $HOME/Figlet-fonts-1000plus.tar.xz https://github.com/efxtv/figlet-fonts/blob/main/Figlet-fonts-1000plus.tar.xz?raw=true -s;sudo tar xvf Figlet-fonts-1000plus.tar.xz -C /data/data/com.termux/files/usr/share/figlet
+curl -L -o $HOME/Figlet-fonts-1000plus.tar.xz https://github.com/efxtv/figlet-fonts/blob/main/Figlet-fonts-1000plus.tar.xz?raw=true -s;tar xvf Figlet-fonts-1000plus.tar.xz -C /data/data/com.termux/files/usr/share/figlet
 rm Figlet-fonts-1000plus.tar.xz
 echo -e "[${Green}✔${clear}] ${IYellow} Done... ${clear}"
 echo
